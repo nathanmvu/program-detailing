@@ -19,6 +19,7 @@ Explaining, in detail, code for a project and how it functions.
 When opening the website, the user first comes across the sign up form page where they can enter an email address, password, and then click "Sign Up" in order to create an "account". The information used for the sign-up form can then be used in order to log in to the website where they will be greeted with a page stating "Welcome [your@email.com]". Inputting a password that was not provided for an account at sign-up will prevent the user from logging in by refreshing the input forms.
 
 ![](./images/sign-up.png)
+![](./images/log-in.png)
 
 This program uses Sequelize and passport in order to recreate a log-in and sign-up page with user validation/authentication based on the password the user uses to sign-up for an account with. The data inputted by the user for the application is all stored in a database using MySQL. Using a database rather than local storage allows us to conceal sensitive user information. 
 
